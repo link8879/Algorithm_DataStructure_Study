@@ -13,5 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\DataStructures">
+      <UniqueIdentifier>{6c5802d5-0bfa-40e0-a587-3c055848d85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DataStructures\LinkedList">
+      <UniqueIdentifier>{1e7f2e8e-74c5-41c5-906c-ad199d5f2d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DataStructures">
+      <UniqueIdentifier>{db1845ff-0529-400d-9f97-602fee6d11d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DataStructures\LinkedList">
+      <UniqueIdentifier>{72de6d86-ecb1-42e7-8afc-f597ddddaac4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructures\LinkedList\LinkedList.cpp">
+      <Filter>소스 파일\DataStructures\LinkedList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataStructures\LinkedList\LinkedList.h">
+      <Filter>헤더 파일\DataStructures\LinkedList</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
