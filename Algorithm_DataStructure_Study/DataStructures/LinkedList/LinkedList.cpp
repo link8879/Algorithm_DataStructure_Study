@@ -73,7 +73,7 @@ void LinkedList::Insert(int data) {
 	}
 }
 
-void LinkedList::~LinkedList() {
+LinkedList::~LinkedList() {
 	//リストの全ノードを削除してメモリを解放する
 	Node* current = head;
 	while (current != nullptr) {
