@@ -25,6 +25,12 @@
     <Filter Include="헤더 파일\DataStructures\LinkedList">
       <UniqueIdentifier>{72de6d86-ecb1-42e7-8afc-f597ddddaac4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DataStructures\Stack">
+      <UniqueIdentifier>{2bb75d3c-1067-4a0c-b566-2b4023ec60cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DataStructures\NewFilter1">
+      <UniqueIdentifier>{85b3010e-ab5c-4799-a948-cca6691aa406}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -33,10 +39,16 @@
     <ClCompile Include="DataStructures\LinkedList\LinkedList.cpp">
       <Filter>소스 파일\DataStructures\LinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="DataStructures\Stack\Stack.cpp">
+      <Filter>소스 파일\DataStructures\Stack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructures\LinkedList\LinkedList.h">
       <Filter>헤더 파일\DataStructures\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Stack\Stack.h">
+      <Filter>헤더 파일\DataStructures\NewFilter1</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

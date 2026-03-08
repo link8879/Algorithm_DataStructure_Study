@@ -8,7 +8,7 @@ void Stack::Push(int data) {
 		return;
 	}
 	else {
-		stackArray[topIndex++] = data;	// スタックの配列にデータを追加
+		stackArray[++topIndex] = data;	// スタックの配列にデータを追加
 		std::cout << "Push: " << data << std::endl;
 	}
 }
@@ -38,15 +38,6 @@ void Stack::Display() {
 	for (int i = 0; i < size(); i++) {
 		std::cout << stackArray[i] << " ";
 	}
-}
-
-void stack::top() {
-	// スタックのトップのデータを表示する処理
-	if (isEmpty()) {
-		std::cout << "Stack is Empty" << std::endl;
-		return;
-	}
-	std::cout << "Top: " << stackArray[topIndex] << std::endl;
 }
 
 bool Stack::isEmpty() {
